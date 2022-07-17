@@ -13,7 +13,7 @@
     position: absolute;
     display: block;
     height: 100vh;
-    margin: -20px 300px;
+    margin: -20px 350px;
     z-index: -1;
 }
 
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 78%;
     height: 185px;
     margin-top: 100px;
     margin-left: 220px;
@@ -38,7 +38,7 @@
     height: 100%;
     /* margin-left: 100px; */
     padding: 50px;
-    border: 3px solid #31a693;
+    border: 3px solid #5e2323;
     border-radius: 25px;
 }
 
@@ -60,48 +60,8 @@
     padding: 50px;
 }
 
-i {
-    color: #31a693;
-}
-
-.edit-listdata {
-    width: 400px;
-    height: 150px;
-    text-align: center;
-    display: flex;
-    margin-left: 213px;
-    align-items: center;
-    justify-content: center;
-}
-
-.edit-listdata a.edit:hover {
-    background-color: #fff;
-    border: 5px solid #F4FAB7;
-    transform: scale(1.1, 1.1);
-    transition: .5s;
-}
-
-.edit-listdata a.edit {
-    background-color: #F4FAB7;
-}
-
-.edit-listdata a.delete {
-    background-color: #FFC1C1
-}
-
-.edit-listdata a.delete:hover {
-    background-color: #fff;
-    border: 5px solid #FFC1C1;
-    transform: scale(1.1, 1.1);
-    transition: .5s;
-}
-
-.edit-listdata>a {
-    font-size: 18px;
-    color: black;
-    border-radius: 25px;
-    padding: 1rem 1.25rem;
-    margin-left: 20px;
+i.gg {
+    color: #5e2323;
 }
 
 .total {
@@ -109,13 +69,39 @@ i {
     background-color: #B4F4FD;
     display: flex;
     align-items: center;
-    width: 215px;
+    width: 350px;
     height: 180px;
     margin-left: 38px;
 }
 
+.total:hover {
+    background-color: #fff;
+    border: 5px solid #B4F4FD;
+    transform: scale(1.1, 1.1);
+    transition: .5s;
+}
+
+.boxx {
+    border-radius: 25px;
+    background-color: #e6b4fd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 325px;
+    height: 180px;
+    margin-left: 38px;
+    padding: 20px;
+}
+
+.boxx:hover {
+    background-color: #fff;
+    border: 5px solid #e6b4fd;
+    transform: scale(1.1, 1.1);
+    transition: .5s;
+}
+
 .total>p {
-    padding: 15px;
+    padding: 20px 15px;
 }
 
 .section {

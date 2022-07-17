@@ -9,7 +9,7 @@ input {
 
 tbody tr.odd:hover,
 tr.even:hover {
-    background-color: #d4a2d8;
+    background-color: #f3dff5;
 }
 
 table {

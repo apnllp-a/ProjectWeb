@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/list_name.css">
-    <title>รายชื่อพนักงาน</title>
+    <link rel="stylesheet" href="./css/confirm_regis.css">
+    <title>ยืนยันการสมัคร</title>
 </head>
 
 <body>
@@ -17,18 +17,22 @@
     <div class="container">
         <div class="header">
             <div class="header-name">
-                <i class="fa-solid fa-clipboard-list fa-4x"></i>
-                <p>รายชื่อพนักงาน</p>
+                <i class="fa-solid fa-clipboard-check fa-4x gg"></i>
+                <p>ยืนยันการสมัคร</p>
             </div>
-            <div class="edit-listdata">
-                <a href="#" class="edit" >แก้ไขข้อมูลพนักงาน</a>
-                <a href="#" class="delete" >แก้ไขรายชื่อพนักงาน</a>
-            </div>
+
             <div class="total">
-                <p style="font-size: 18px;">พนักงานทั้งหมด</p>
-                <p style="font-size:40px ;">75</p>
+                <p style="font-size: 18px;">รอการยืนยันทั้งหมด</p>
+                <p style="font-size:40px ;">25</p>
                 <p style="font-size: 18px;">คน</p>
             </div><br>
+            <div class="boxx">
+                <p style="font-size: 18px;">อะไร</p>
+                <p style="font-size:40px ;">สักอย่าง</p>
+                <p style="font-size: 18px;">อะ</p>
+                
+            </div><br>
+
 
         </div>
         <div class="section">
@@ -55,7 +59,7 @@
             </table> -->
 
             <div class="table-section">
-                <?php include("table_list.html"); ?>
+                <?php include("table_list-confirm.html"); ?>
             </div>
         </div>
     </div>

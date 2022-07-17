@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="//cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
-    <link rel="stylesheet" href="./css/table_list-set_permission.css">
+    <link rel="stylesheet" href="./css/table_list-confirm.css">
     <title>table</title>
 </head>
 
@@ -16,9 +16,10 @@
             <tr>
                 <th>No.</th>
                 <th>รายชื่อ</th>
-                <th>แผนก</th>
-                <th>ระดับพนักงาน</th>
-                <th>กำหนดสิทธิ์</th>
+                <th>email</th>
+                <th>Username</th>
+                <th>วันที่</th>
+                <th>ยืนยัน</th>
 
             </tr>
         </thead>
@@ -30,19 +31,12 @@
                 </td>
                 <td>กันตพัฒน์</td>
                 <td>Edinburgh</td>
-                <td>61</td>
+                <td>Ufufuyfuyfuy</td>
+                <td>20/06/2541</td>
                 <td>
                     <form action="#">
-
-                        <select name="cars" id="cars">
-                            <option value="choose">เลือก</option>
-                             <option value="volvo">Volvo</option>
-                             <option value="saab">Saab</option>
-                             <option value="opel">Opel</option>
-                             <option value="audi">Audi</option>
-                        </select>
-
-                        <input type="submit" value="ยืนยัน">
+                        <input class="accept" type="submit" value="ยืนยัน">
+                        <input class="cancel" type="submit" value="ยกเลิก">
                     </form>
                 </td>
 
